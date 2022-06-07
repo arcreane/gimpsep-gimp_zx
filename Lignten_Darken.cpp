@@ -2,11 +2,12 @@
 #include <opencv2/opencv.hpp>
 using namespace std;
 using namespace cv;
+#include "definition.h"
 
 int g_slider1_pos = 10;
 int g_slider2_pos = 0;
 const char* windowName = "Contrast And Brightness";
-static void ContrastAndBright(int pos, void* data) {
+void ContrastAndBright(int pos, void* data) {
     Mat srcImage = *(Mat*)data;
     Mat dstImage = srcImage.clone();
     int rows = srcImage.rows;
