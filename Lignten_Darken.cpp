@@ -32,22 +32,3 @@ void ContrastAndBright(int pos, void* data) {
     }
     imshow(windowName, dstImage);
 }
-//int main(int argc, char* argv[]) {
-    //Mat srcImage = imread("eco.jpg");
-    //if (!srcImage.data) {
-        //cerr << "fail to load image" << endl;
-        //return -1;
-    //}
-    //namedWindow(windowName, WINDOW_AUTOSIZE);
-    //createTrackbar("Contrast", windowName, &g_slider1_pos, 300, ContrastAndBright,
-        //(void*)&srcImage); //对比度
-    //createTrackbar("Brightness", windowName, &g_slider2_pos, 100,
-        //ContrastAndBright, (void*)&srcImage); //亮度
-
-    //ContrastAndBright(g_slider1_pos, (void*)&srcImage);
-    //ContrastAndBright(g_slider2_pos, (void*)&srcImage);
-    //imshow(windowName, srcImage);
-    //waitKey();
-    //destroyAllWindows();
-    //return 0;
-//}

@@ -37,10 +37,10 @@ void Process(int value, void * img)
 	Mat element = getStructuringElement(MORPH_RECT, Size(2 * value + 1, 2 * value + 1), Point(value, value));
 	g_srcImage = (Mat*)img;
 	//进行腐蚀或膨胀操作
-	if (g_nTrackbarNumer == 0) {//0腐蚀erode
+	if (g_nTrackbarNumer == 0) {//0erode
 		erode(*g_srcImage, g_dstImage, element);
 	}
-	else {//1膨胀dilate
+	else {//1dilate
 		dilate(*g_srcImage, g_dstImage, element);
 	}
 

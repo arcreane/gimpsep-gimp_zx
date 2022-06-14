@@ -34,13 +34,13 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="dilitation_erotion.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Lignten_Darken.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

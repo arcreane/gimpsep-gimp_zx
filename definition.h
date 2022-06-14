@@ -17,4 +17,5 @@ void on_ElementSizeChange(int, void*);//回调函数
 
 void ContrastAndBright(int pos, void* data);
 
+void ContrastAndBright(int pos, void* data);
 #endif
